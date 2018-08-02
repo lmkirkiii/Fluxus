@@ -9,8 +9,8 @@ module.exports = {
         path: "fluxus",
         options: { limit: 5, sort: { createdAt: -1 } }
       })
-      .then(user => {
-        res.render("user/show", { user });
+      .then( user => {
+        res.render("user/show",{user})
       });
   },
   login: (req, res) => {

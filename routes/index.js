@@ -17,6 +17,7 @@ router.use('/prompt', require('./prompt'));
 router.use('/add', require('./add'));
 router.use('/update', require('./update'));
 router.use('/delete', require('./delete'));
+// router.use('/image', require('./image'));
 
 
 router.all('*', (req, res) => {
