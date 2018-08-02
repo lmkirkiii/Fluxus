@@ -35,4 +35,3 @@ app.set('port', process.env.PORT || 3001)
     console.log(`✅ PORT: ${app.get('port')} 🌟`)
   })
 
-app.use(require("better-express-errors")(app))
