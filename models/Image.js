@@ -5,6 +5,10 @@ const Schema = mongoose.Schema;
 
 const Image = new Schema({
     path: String,
+<<<<<<< HEAD
+=======
+    
+>>>>>>> newmodel
   },
   { collection : 'image' });  
   

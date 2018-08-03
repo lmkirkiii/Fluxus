@@ -1,4 +1,5 @@
-// const router = require('./routes/index.js')
+
+
 const express = require("express");
 const hbs = require("hbs");
 const flash = require("connect-flash");
@@ -29,9 +30,19 @@ app.use(passport.initialize());
 app.use(passport.session());
 app.use(require("./routes/index.js"));
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> newmodel
 app.set('port', process.env.PORT || 1108)
 
   app.listen(app.get('port'), () => {
     console.log(`✅ PORT: ${app.get('port')} 🌟`)
   })
 
+<<<<<<< HEAD
+=======
+
+// app.listen(1108, () => console.log("server is running on birth"));
+// app.use(require("better-express-errors")(app))
+>>>>>>> newmodel

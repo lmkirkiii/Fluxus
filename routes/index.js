@@ -8,7 +8,6 @@ router.use((req, res, next) => {
 
 router.use('/', require('./application.js'));
 router.use('/user', require('./user'));
-router.use('/flux', require('./flux'));
 router.use('/about', require('./about'));
 router.use('/mission', require('./mission'));
 router.use('/meaning', require('./meaning'));
@@ -16,6 +15,7 @@ router.use('/dev', require('./dev'));
 router.use('/prompt', require('./prompt'));
 router.use('/add', require('./add'));
 router.use('/update', require('./update'));
+router.use('/fluxer', require('./fluxer'));
 router.use('/delete', require('./delete'));
 // router.use('/image', require('./image'));
 

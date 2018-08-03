@@ -17,14 +17,3 @@ module.exports = {
   }
 
 
-  
-  // create: (req, res) => {
-  //   Flux.create({
-  //     content: req.body.flux.content,
-  //     author: req.user._id
-  //   }).then(flux => {
-  //     req.user.fluxus.push(flux);
-  //     req.user.save(err => {
-  //       res.redirect(`/flux/${flux._id}`);
-  //     });
-  //   });
